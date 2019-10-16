@@ -1,1 +1,62 @@
-<mxfile host="www.draw.io" modified="2019-10-16T15:32:50.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" version="12.1.2" etag="dEveagdUGQMU3N97SGNx" type="github"><diagram id="MF_eMLzE3YSNdpe4N8fI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-16T15:43:42.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="ium-UAJ5oNm3y1n7R7zW" version="12.1.2" type="github" pages="1">
+  <diagram id="MF_eMLzE3YSNdpe4N8fI" name="Page-1">
+    <mxGraphModel dx="730" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;endArrow=none;endFill=0;" edge="1" parent="1" source="shHor7YPSSUzn3gNQ5h--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="shHor7YPSSUzn3gNQ5h--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--2" value="REX Dashboard" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/infrastructure/dashboard.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="shHor7YPSSUzn3gNQ5h--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--3" value="Ghost" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/data_sources.svg;" vertex="1" parent="1">
+          <mxGeometry x="590" y="60" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="shHor7YPSSUzn3gNQ5h--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--4" value="Data Layer" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/application_logic.svg;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--9" value="&lt;span style=&quot;font-size: 12px&quot;&gt;User Filter:&lt;/span&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;name:MyCloudant AND location:US South&lt;/span&gt;" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="200" as="sourcePoint"/>
+            <mxPoint x="380" y="200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="220" as="sourcePoint"/>
+            <mxPoint x="600" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--12" value="Get: Space/Org named &#39;Redis*&#39;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="shHor7YPSSUzn3gNQ5h--11">
+          <mxGeometry x="-0.4667" y="4" relative="1" as="geometry">
+            <mxPoint x="54" y="-6" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="shHor7YPSSUzn3gNQ5h--14" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="260" as="sourcePoint"/>
+            <mxPoint x="390" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
