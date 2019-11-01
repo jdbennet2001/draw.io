@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-01T15:19:39.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="IkokFvsYcsYQO_1c7mYh" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-01T15:21:29.569Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="HSuoOVEsBS2Y3NEGTNo2" version="12.1.9" type="github" pages="1">
   <diagram id="dQ4Exi4quQ7bIV46zsW3" name="Page-1">
     <mxGraphModel dx="971" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,8 +25,9 @@
         <mxCell id="HjyJUb-KJ7QNwACKA1qb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HjyJUb-KJ7QNwACKA1qb-3" target="HjyJUb-KJ7QNwACKA1qb-8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="HjyJUb-KJ7QNwACKA1qb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HjyJUb-KJ7QNwACKA1qb-3" target="HjyJUb-KJ7QNwACKA1qb-19">
+        <mxCell id="HjyJUb-KJ7QNwACKA1qb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HjyJUb-KJ7QNwACKA1qb-3">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="175" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="630" y="220"/>
               <mxPoint x="630" y="175"/>
@@ -57,17 +58,22 @@
         <mxCell id="HjyJUb-KJ7QNwACKA1qb-16" value="Alerting" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/alert_notification.svg;" vertex="1" parent="1">
           <mxGeometry x="930" y="145" width="60" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="HjyJUb-KJ7QNwACKA1qb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HjyJUb-KJ7QNwACKA1qb-18" target="HjyJUb-KJ7QNwACKA1qb-16">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="HjyJUb-KJ7QNwACKA1qb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="HjyJUb-KJ7QNwACKA1qb-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="866" y="175" as="sourcePoint"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="HjyJUb-KJ7QNwACKA1qb-18" value="Apply cognitive models" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/model.svg;" vertex="1" parent="1">
-          <mxGeometry x="806" y="145" width="60" height="60" as="geometry"/>
+        <mxCell id="HjyJUb-KJ7QNwACKA1qb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="175" as="sourcePoint"/>
+            <mxPoint x="806" y="175" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="HjyJUb-KJ7QNwACKA1qb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HjyJUb-KJ7QNwACKA1qb-19" target="HjyJUb-KJ7QNwACKA1qb-18">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="HjyJUb-KJ7QNwACKA1qb-25" value="Aggregate Data" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/analytics/streaming_computing.svg;" vertex="1" parent="1">
+          <mxGeometry x="685" y="140" width="60" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="HjyJUb-KJ7QNwACKA1qb-19" value="Aggregate Data" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/annotate.svg;" vertex="1" parent="1">
-          <mxGeometry x="685" y="145" width="60" height="60" as="geometry"/>
+        <mxCell id="HjyJUb-KJ7QNwACKA1qb-26" value="Analytics" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/analytics/analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="807.5" y="140" width="60" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
