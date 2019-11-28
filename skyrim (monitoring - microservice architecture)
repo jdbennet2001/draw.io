@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-28T15:32:17.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="a0ErmRjv6S3UkrB7lEPu" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-28T15:38:37.228Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="rZlCrEhPumEKja-_Gofa" version="12.3.3" type="github" pages="1">
   <diagram id="AGDv8J2jMkG4RoOs615b" name="Page-1">
     <mxGraphModel dx="881" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,8 +22,58 @@
         <mxCell id="Cgelshh4SbCb2DIvac-b-3" value="&lt;br&gt;Data&lt;br&gt;(Redis)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/infrastructure/channels.svg;" vertex="1" parent="1">
           <mxGeometry x="60" y="190" width="60" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cgelshh4SbCb2DIvac-b-4" target="Cgelshh4SbCb2DIvac-b-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="Cgelshh4SbCb2DIvac-b-4" value="Redis" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/infrastructure/cloud_messaging.svg;" vertex="1" parent="1">
           <mxGeometry x="300" y="280" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cgelshh4SbCb2DIvac-b-12" target="Cgelshh4SbCb2DIvac-b-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-12" value="Event Processor&lt;br&gt;(Python)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/application_logic.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cgelshh4SbCb2DIvac-b-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-14" value="Cache&lt;br&gt;(Redis)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/caches.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cgelshh4SbCb2DIvac-b-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-15" value="Logging&lt;br&gt;(ElasticSearch)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/data_services.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="400" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cgelshh4SbCb2DIvac-b-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-16" value="Config Repository&lt;br&gt;(ElasticSearch)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/model.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cgelshh4SbCb2DIvac-b-21" target="Cgelshh4SbCb2DIvac-b-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-21" value="Model Repository" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/model.svg;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-22" value="Slack" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/alert_notification.svg;" vertex="1" parent="1">
+          <mxGeometry x="740" y="280" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cgelshh4SbCb2DIvac-b-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cgelshh4SbCb2DIvac-b-23" value="AI model processing" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/monitoring_metrics.svg;" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="60" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
