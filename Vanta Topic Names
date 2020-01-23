@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-23T19:12:54.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="HI6hkdYRBL-2wXMy2aBp" version="12.5.6" type="github">
+<mxfile host="www.draw.io" modified="2020-01-23T19:13:59.018Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="gMXVHddptguKQtJBzy9s" version="12.5.6" type="github">
   <diagram id="8rK7EvkFoV7rURTzqTCm" name="Page-1">
     <mxGraphModel dx="1639" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,6 +56,16 @@
         <mxCell id="NtvlmIRFV-D4AWWbrRrm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="NtvlmIRFV-D4AWWbrRrm-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtvlmIRFV-D4AWWbrRrm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NtvlmIRFV-D4AWWbrRrm-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtvlmIRFV-D4AWWbrRrm-28" value="&lt;span style=&quot;font-size: 11px&quot;&gt;console.monitoring.server.window.health&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="NtvlmIRFV-D4AWWbrRrm-27">
+          <mxGeometry x="-0.22" y="2" relative="1" as="geometry">
+            <mxPoint x="31" y="2" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="NtvlmIRFV-D4AWWbrRrm-5" value="Evaluate Data" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/application_logic.svg;" vertex="1" parent="1">
