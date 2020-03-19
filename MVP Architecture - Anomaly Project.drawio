@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-19T17:06:05.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="tRHILUXQq-NWvCDH6F0w" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-19T17:06:26.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="EIoax9YqRgo-BJIhGbO9" version="12.8.8" type="github">
   <diagram id="v1kaSg5XMLnamlTehL7t" name="Page-1">
     <mxGraphModel dx="782" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,6 +32,9 @@
         </mxCell>
         <mxCell id="SxOozk5HX5RI8pWN9_sA-13" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;" vertex="1" parent="1">
           <mxGeometry x="490" y="125" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-14" value="Health&amp;nbsp;&lt;br&gt;Event" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
