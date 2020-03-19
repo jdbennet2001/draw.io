@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2020-03-19T16:52:15.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="FCBzRDZ7e89CVF0UAdg3" version="12.8.8" type="github"><diagram id="v1kaSg5XMLnamlTehL7t" name="Page-1">jZPdT8IwEMD/mj1q9qHi8wAxJhANJhpfzNHeusZubboCw7/eY2sZCyFxD+31d1/d3TXKplW7sGDKpeaoojTmbZTNojSdPKa0HsGhB/fxpAfCSt6jZABr+Ysexp5uJcdmZOi0Vk6aMWS6rpG5EQNr9X5sVmg1zmpA4AVYM1CX9ENyV/b08T4e+DNKUYbMSew1FQRjD5oSuN6foWweZVOrteulqp2iOtYu1KX3e7qiPV3MYu3+4/C5eEMUL/PlamUO6eLLPMx+b3yUHait/+G5gsZJtkawrPQ3d4dQDmhMX+VCtkiBc4NWVujQEqN81BZ8HVBeukqRJiERlBQ1yYzu2+lOBYnpwKEpjwG7Q6FrN9VK2y5pdpdOJnlOXMEGVQ7sR1i9rfmZSdF93tVPUZIekxhgshbv2hDJCMiq63jYZ7ISVDMlN7TKTUUrBwd++27Q7iTD5rbZCXLy1ULrsL3ahuTUXHoUqKkU9kAm3iENA+IfRPbgz/thvAIqzyYrMPADLU6Rh56T4NsejsN4dbqzN5rN/wA=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-03-19T17:06:05.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="tRHILUXQq-NWvCDH6F0w" version="12.8.8" type="github">
+  <diagram id="v1kaSg5XMLnamlTehL7t" name="Page-1">
+    <mxGraphModel dx="782" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-1" value="Zipkin Event" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-3" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;" vertex="1" parent="1">
+          <mxGeometry x="255" y="125" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-4" value="Clean Data" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="117.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-8" value="Zipkin" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-9" value="Summary Events" style="html=1;whiteSpace=wrap;rounded=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-10" value="" style="shape=mxgraph.bpmn.timer_start;perimeter=ellipsePerimeter;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;" vertex="1" parent="SxOozk5HX5RI8pWN9_sA-9">
+          <mxGeometry x="1" y="1" width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="-40" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-11" value="Elastic&lt;br&gt;Search" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-12" value="Publish" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;" vertex="1" parent="1">
+          <mxGeometry x="570" y="125" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SxOozk5HX5RI8pWN9_sA-13" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;" vertex="1" parent="1">
+          <mxGeometry x="490" y="125" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
