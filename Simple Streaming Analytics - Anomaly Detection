@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-25T16:19:37.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="0hFwmXvZPlSMyGIhc_NE" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-25T16:20:35.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="CIpg4J-w-PRyQpbYI3Bc" version="13.6.5" type="github">
   <diagram id="6X7y4ZcAmQG7b2izJ4VG" name="Page-1">
     <mxGraphModel dx="1186" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,6 +76,12 @@
         </mxCell>
         <mxCell id="pN881qODEwjfculBDqOh-27" value="Model Repository" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/devops/artifact_management.svg;" vertex="1" parent="1">
           <mxGeometry x="450" y="500" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pN881qODEwjfculBDqOh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pN881qODEwjfculBDqOh-30" target="pN881qODEwjfculBDqOh-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pN881qODEwjfculBDqOh-30" value="Visualization" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/monitoring_metrics.svg;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
