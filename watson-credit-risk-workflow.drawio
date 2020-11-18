@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T14:16:32.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.7.5" etag="z__6b-Vnw27Wi0sRiKOn" type="github"><diagram id="j21f6u2e4qj2vZepf9Lw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-18T14:59:13.121Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="FkBAi_NnH2mFXSGaCX2V" version="13.7.5" type="github">
+  <diagram id="j21f6u2e4qj2vZepf9Lw" name="Page-1">
+    <mxGraphModel dx="740" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A17nTPrWeXEpB0igfruO-10" value="Inspect&lt;br&gt;Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A17nTPrWeXEpB0igfruO-1" target="A17nTPrWeXEpB0igfruO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-1" value="Identify Feature(s)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/caches.svg;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-13" value="Deploy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A17nTPrWeXEpB0igfruO-2" target="A17nTPrWeXEpB0igfruO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-2" value="Watson &lt;br&gt;AutoAI" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/analytics/analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A17nTPrWeXEpB0igfruO-3" target="A17nTPrWeXEpB0igfruO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-12" value="Evaluate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A17nTPrWeXEpB0igfruO-11">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-3" value="Watson &lt;br&gt;Data Refinery" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/analytics/analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-6" value="Watson&lt;br&gt;Machine Learning" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/analytics/analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A17nTPrWeXEpB0igfruO-7" value="Watson &lt;br&gt;OpenScale" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/analytics/analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
