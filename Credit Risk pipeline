@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T17:50:02.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="kDcK6zPvuT1qSJuStK7o" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T17:51:43.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="iqoOyL4oMjR2A6lug-s1" version="13.9.9" type="github">
   <diagram id="wtGAgPi6MB_J9n7RukA8" name="Page-1">
     <mxGraphModel dx="821" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -191,6 +191,29 @@
           <mxGeometry x="-0.3943" relative="1" as="geometry">
             <mxPoint x="64" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AhWgAc36366IjYcUqu5r-58" value="Alert(s)" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/management/alert_notification.svg;" vertex="1" parent="1">
+          <mxGeometry x="530" y="580" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AhWgAc36366IjYcUqu5r-59" value="" style="html=1;labelBackgroundColor=#ffffff;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="559.5" y="990" as="sourcePoint" />
+            <mxPoint x="559.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AhWgAc36366IjYcUqu5r-60" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="920" as="sourcePoint" />
+            <mxPoint x="550" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AhWgAc36366IjYcUqu5r-61" value="Generate Risk score + alerts (Trustar tags)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AhWgAc36366IjYcUqu5r-60">
+          <mxGeometry x="-0.617" y="1" relative="1" as="geometry">
+            <mxPoint x="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AhWgAc36366IjYcUqu5r-62" value="&lt;h3&gt;Agent Evaluation&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="171" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
