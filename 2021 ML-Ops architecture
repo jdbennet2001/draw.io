@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T18:47:31.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="aXKDNGFUfsLoA6yfv6A-" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T18:50:44.916Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="FkoZ0n0Wck0-1p0EzVGO" version="14.3.0" type="github">
   <diagram id="9pJCcZK0anVu4T-3-6BH" name="Page-1">
     <mxGraphModel dx="1708" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="230" y="180" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-30" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;direction=south;fillColor=#10739E;strokeColor=none;rounded=0;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="480" y="350" width="20" height="70" as="geometry" />
+          <mxGeometry x="485" y="350" width="20" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-32" value="&lt;ul&gt;&lt;li&gt;Provide&amp;nbsp; trend information for FAs. (Countries, order types)&lt;/li&gt;&lt;li&gt;Use time series forecasting to show outliers (Facebook&#39;s Prophet framework)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="460" width="170" height="90" as="geometry" />
@@ -55,7 +55,7 @@
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-36" value="&lt;ul&gt;&lt;li&gt;Risk assessment value for new, upgrading accounts&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-10" y="210" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="TR9TGIKFGI6i6nwMRnKo-39" value="&lt;ul&gt;&lt;li&gt;Identify the business reason behind a risk score.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Provide focused data for fraud analysts&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TR9TGIKFGI6i6nwMRnKo-39" value="&lt;ul&gt;&lt;li&gt;Identify the business reason behind a risk score.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Provide focused data for fraud analysts&lt;/li&gt;&lt;li&gt;Automate followup information gathering&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="215" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-40" value="&lt;font color=&quot;#32729a&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Trend Analysis&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-48" value="&lt;font color=&quot;#32729a&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Task Modelling&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="825" y="195" width="100" height="20" as="geometry" />
+          <mxGeometry x="810" y="190" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-49" value="" style="endArrow=oval;html=1;fontSize=16;fontColor=#10739E;endFill=0;endSize=24;strokeWidth=5;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;strokeColor=#10739E;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -111,6 +111,15 @@
         </mxCell>
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-54" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;Ongoing, real time monitoring&amp;nbsp;of cloud resources to prevent fraud and PR nightmares&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1150" y="230" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TR9TGIKFGI6i6nwMRnKo-55" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=10;fontColor=#32729A;fontSize=15;strokeColor=#32729A;jumpSize=2;arcSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="510" as="sourcePoint" />
+            <mxPoint x="960" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TR9TGIKFGI6i6nwMRnKo-56" value="&lt;font color=&quot;#32729a&quot; size=&quot;1&quot;&gt;&lt;b&gt;&lt;i style=&quot;font-size: 14px&quot;&gt;Future&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="110" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
