@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T19:11:37.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="iFwWdURIgPzkpXaK434T" version="14.3.0" type="github">
-  <diagram id="9pJCcZK0anVu4T-3-6BH" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-02-09T19:54:26.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="ErM00UcW1kyS6DYSWyGQ" version="14.3.0" type="github" pages="2">
+  <diagram id="9pJCcZK0anVu4T-3-6BH" name="Road map">
     <mxGraphModel dx="1708" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -139,6 +139,14 @@
         <mxCell id="TR9TGIKFGI6i6nwMRnKo-63" value="&lt;font color=&quot;#32729a&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Machine Learning&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-110" y="245" width="110" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rkJXDkGeD5dsrKv3YxFu" name="Pipeline">
+    <mxGraphModel dx="858" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="njiDm55b4FByVwnLlCoV-0" />
+        <mxCell id="njiDm55b4FByVwnLlCoV-1" parent="njiDm55b4FByVwnLlCoV-0" />
       </root>
     </mxGraphModel>
   </diagram>
