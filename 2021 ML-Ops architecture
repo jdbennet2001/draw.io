@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T21:13:43.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="_lUAREwF3X6KGOB7xdba" version="14.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-10T22:07:18.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="LsZ9XfUc3MdmRssY8vmd" version="14.3.0" type="github" pages="3">
   <diagram id="9pJCcZK0anVu4T-3-6BH" name="ML RoadMap">
     <mxGraphModel dx="1372" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -360,6 +360,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pBOxGuSWaZcmPWTpq2rg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;" edge="1" parent="pBOxGuSWaZcmPWTpq2rg-1" source="pBOxGuSWaZcmPWTpq2rg-29" target="pBOxGuSWaZcmPWTpq2rg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pBOxGuSWaZcmPWTpq2rg-52" value="pg-promise&lt;br&gt;(external library)" style="html=1;" vertex="1" parent="pBOxGuSWaZcmPWTpq2rg-1">
+          <mxGeometry x="1070" y="498" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pBOxGuSWaZcmPWTpq2rg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;" edge="1" parent="pBOxGuSWaZcmPWTpq2rg-1" source="pBOxGuSWaZcmPWTpq2rg-42" target="pBOxGuSWaZcmPWTpq2rg-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
