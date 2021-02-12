@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-12T17:45:26.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="BcyZqD6m9K4EyRyQR6IO" version="14.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-02-12T21:05:53.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="ZNpJKfaPDbucdRUez6Er" version="14.3.0" type="github" pages="5">
   <diagram id="9pJCcZK0anVu4T-3-6BH" name="ML RoadMap">
-    <mxGraphModel dx="1372" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1857" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rkJXDkGeD5dsrKv3YxFu" name="MP Pipeline">
-    <mxGraphModel dx="522" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1007" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="njiDm55b4FByVwnLlCoV-0" />
         <mxCell id="njiDm55b4FByVwnLlCoV-1" parent="njiDm55b4FByVwnLlCoV-0" />
@@ -274,7 +274,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bt--3-x-jqgWZMpzSer2" name="Trust-API">
-    <mxGraphModel dx="916" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1007" dy="1937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pBOxGuSWaZcmPWTpq2rg-0" />
         <mxCell id="pBOxGuSWaZcmPWTpq2rg-1" parent="pBOxGuSWaZcmPWTpq2rg-0" />
@@ -521,7 +521,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MKw4hYGLVsPwBNjy4_CH" name="Automation">
-    <mxGraphModel dx="1067" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="744" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="i8jNTvtgKDLN_k0ZPeT_-0" />
         <mxCell id="i8jNTvtgKDLN_k0ZPeT_-1" parent="i8jNTvtgKDLN_k0ZPeT_-0" />
@@ -997,6 +997,50 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2280" y="1790" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U_i2zmIBGLS9OvJXVfVB" name="Segment Events">
+    <mxGraphModel dx="1007" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-0" />
+        <mxCell id="If2LVKQu6j3nAJDkM53K-1" parent="If2LVKQu6j3nAJDkM53K-0" />
+        <mxCell id="If2LVKQu6j3nAJDkM53K-9" value="segment.js" style="swimlane;startSize=20;horizontal=0;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-1">
+          <mxGeometry x="40" y="250" width="890" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-6" value="sendEventsToSegment" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-9">
+          <mxGeometry x="420" y="55" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-2" value="Segment Event" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-9">
+          <mxGeometry x="700" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;fontSize=13;fontColor=#000000;" edge="1" parent="If2LVKQu6j3nAJDkM53K-9" source="If2LVKQu6j3nAJDkM53K-6" target="If2LVKQu6j3nAJDkM53K-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-3" value="reviewTrigger: &#39;upgraded to paid account&#39;&lt;br&gt;outcome = &#39;fraud&#39;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-9">
+          <mxGeometry x="590" y="170" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;fontSize=13;fontColor=#000000;" edge="1" parent="If2LVKQu6j3nAJDkM53K-9" source="If2LVKQu6j3nAJDkM53K-3" target="If2LVKQu6j3nAJDkM53K-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-5" value="src/analytics/segment/segment.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-9">
+          <mxGeometry x="600" y="15" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-11" value="Lane" style="swimlane;startSize=20;horizontal=0;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-1">
+          <mxGeometry x="40" y="100" width="890" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-12" value="emitEventsToSegment" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;strokeWidth=3;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-11">
+          <mxGeometry x="230" y="20" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;fontSize=13;fontColor=#000000;" edge="1" parent="If2LVKQu6j3nAJDkM53K-11" source="If2LVKQu6j3nAJDkM53K-14" target="If2LVKQu6j3nAJDkM53K-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-14" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=general;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="If2LVKQu6j3nAJDkM53K-11">
+          <mxGeometry x="100" y="35" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="If2LVKQu6j3nAJDkM53K-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;fontSize=13;fontColor=#000000;" edge="1" parent="If2LVKQu6j3nAJDkM53K-1" source="If2LVKQu6j3nAJDkM53K-12" target="If2LVKQu6j3nAJDkM53K-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
