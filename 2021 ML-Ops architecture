@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T19:13:28.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="mXbOA9n3s_DtJj0InRF3" version="14.3.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-16T19:16:58.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="do2DYwmLwdf2dAwQ3QCO" version="14.3.0" type="github" pages="6">
   <diagram id="9pJCcZK0anVu4T-3-6BH" name="ML RoadMap">
     <mxGraphModel dx="1857" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1046,7 +1046,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8OKhjj15M1qi1f6j6n_p" name="Registration API">
-    <mxGraphModel dx="1118" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1118" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Orsp65bSmjSiIRa-7mW3-0" />
         <mxCell id="Orsp65bSmjSiIRa-7mW3-1" parent="Orsp65bSmjSiIRa-7mW3-0" />
@@ -1106,11 +1106,14 @@
         <mxCell id="Orsp65bSmjSiIRa-7mW3-18" value="decisionManager.js" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=center;" vertex="1" parent="Orsp65bSmjSiIRa-7mW3-17">
           <mxGeometry x="40" y="30" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Orsp65bSmjSiIRa-7mW3-60" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;fontSize=13;fontColor=#000000;" edge="1" parent="Orsp65bSmjSiIRa-7mW3-17" source="Orsp65bSmjSiIRa-7mW3-19" target="Orsp65bSmjSiIRa-7mW3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Orsp65bSmjSiIRa-7mW3-19" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=general;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="Orsp65bSmjSiIRa-7mW3-17">
           <mxGeometry x="250" y="35" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Orsp65bSmjSiIRa-7mW3-20" value="IAM token has right permissions?" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="Orsp65bSmjSiIRa-7mW3-17">
-          <mxGeometry x="340" y="15" width="120" height="80" as="geometry" />
+          <mxGeometry x="340" y="20" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Orsp65bSmjSiIRa-7mW3-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;fontSize=13;fontColor=#000000;" edge="1" parent="Orsp65bSmjSiIRa-7mW3-17" source="Orsp65bSmjSiIRa-7mW3-31" target="Orsp65bSmjSiIRa-7mW3-45">
           <mxGeometry relative="1" as="geometry" />
