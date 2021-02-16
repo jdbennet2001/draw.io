@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T20:39:05.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="SEduVvyZZfwCou12K-qS" version="14.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-02-16T20:57:45.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="0CBU4wT6JLBzxiu-KLIb" version="14.3.0" type="github" pages="8">
   <diagram id="9pJCcZK0anVu4T-3-6BH" name="ML RoadMap">
     <mxGraphModel dx="1857" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1214,7 +1214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BOkIposhqYap17zphPvW" name="SyncDB">
-    <mxGraphModel dx="1118" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1118" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gXJDeZzKLecv4aSSjCtG-0" />
         <mxCell id="gXJDeZzKLecv4aSSjCtG-1" parent="gXJDeZzKLecv4aSSjCtG-0" />
@@ -1330,6 +1330,26 @@
         </mxCell>
         <mxCell id="gXJDeZzKLecv4aSSjCtG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;fontSize=13;fontColor=#000000;" edge="1" parent="gXJDeZzKLecv4aSSjCtG-1" source="gXJDeZzKLecv4aSSjCtG-29" target="gXJDeZzKLecv4aSSjCtG-33">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UYhiJXq8JKgtbHbsiFB4" name="account-verification-trial">
+    <mxGraphModel dx="1118" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="7gInih5difL7y6Uu5vmV-0" />
+        <mxCell id="7gInih5difL7y6Uu5vmV-1" parent="7gInih5difL7y6Uu5vmV-0" />
+        <mxCell id="7gInih5difL7y6Uu5vmV-2" value="trial accounts" style="swimlane;startSize=20;horizontal=0;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="7gInih5difL7y6Uu5vmV-1">
+          <mxGeometry x="50" y="80" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7gInih5difL7y6Uu5vmV-3" value="trialAccounts.js" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=center;" vertex="1" parent="7gInih5difL7y6Uu5vmV-2">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gInih5difL7y6Uu5vmV-4" value="trustar" style="swimlane;startSize=20;horizontal=0;fillColor=none;gradientColor=none;fontSize=13;fontColor=#000000;align=center;" vertex="1" parent="7gInih5difL7y6Uu5vmV-1">
+          <mxGeometry x="50" y="260" width="740" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7gInih5difL7y6Uu5vmV-5" value="trustarController.js" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=center;" vertex="1" parent="7gInih5difL7y6Uu5vmV-4">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
