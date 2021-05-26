@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T18:38:25.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.1" etag="2XOY6PYXSZS9WE7HYFkl" type="github"><diagram id="UOzMnN9NTmtTvjpTPkBe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-26T18:48:33.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="2MKSEUoNDoKYdwfaPRF_" version="14.6.1" type="github">
+  <diagram id="UOzMnN9NTmtTvjpTPkBe" name="Page-1">
+    <mxGraphModel dx="996" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wGBVTd1KflDnRyXtLt23-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#7EA6E0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-1" target="wGBVTd1KflDnRyXtLt23-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-1" value="CBR =&amp;gt; CBZ" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#7EA6E0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-2" target="wGBVTd1KflDnRyXtLt23-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-2" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.files" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="41.24" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-3" value="Catalog" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="41.239999999999995" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#7EA6E0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-5" target="wGBVTd1KflDnRyXtLt23-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-5" value="ComicVine&amp;nbsp;&lt;br&gt;Data" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/postgresql-128.png;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="266" y="80" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.04;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#7EA6E0;startArrow=classic;startFill=1;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-6" target="wGBVTd1KflDnRyXtLt23-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-6" value="Classify comic&amp;nbsp;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#7EA6E0;startArrow=none;startFill=0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-10" target="wGBVTd1KflDnRyXtLt23-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-10" value="Redis Queue" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_including_Redis.svg;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="376" y="198" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.053;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#7EA6E0;startArrow=none;startFill=0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-12" target="wGBVTd1KflDnRyXtLt23-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-12" value="Review Issues" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="476" y="197" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-14" value="Flask" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.web_ui;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="473" y="82" width="44.8" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#7EA6E0;startArrow=classic;startFill=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-14" target="wGBVTd1KflDnRyXtLt23-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="356" y="138" as="sourcePoint" />
+            <mxPoint x="300" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#7EA6E0;startArrow=none;startFill=0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-16" target="wGBVTd1KflDnRyXtLt23-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-16" value="Redis Queue" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_including_Redis.svg;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="198" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-18" value="Tag / File" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="670" y="197" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
