@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T19:30:14.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="XXwgMN31QVmh8FdI13iG" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T19:36:31.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="FEzgOcIeqc5RTUa4LTNX" version="14.6.1" type="github">
   <diagram id="UOzMnN9NTmtTvjpTPkBe" name="Page-1">
-    <mxGraphModel dx="996" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,6 +93,39 @@
         </mxCell>
         <mxCell id="wGBVTd1KflDnRyXtLt23-28" value="Data pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7EA6E0;" vertex="1" parent="1">
           <mxGeometry x="730" y="210.5" width="90" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#7EA6E0;startArrow=none;startFill=0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-29" target="wGBVTd1KflDnRyXtLt23-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-29" value="Update ComicVine&lt;br&gt;Files&lt;br&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="50" y="84" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#7EA6E0;startArrow=none;startFill=0;" edge="1" parent="1" source="wGBVTd1KflDnRyXtLt23-30" target="wGBVTd1KflDnRyXtLt23-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-30" value="Update DB" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="170" y="84" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-33" value="Data Preperation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="97.5" width="105" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-35" value="OverStreet.py" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="473" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-36" value="file-comics.py" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="645" y="260" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-37" value="cb-classify" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-38" value="db-update" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="145" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-40" value="cv-update" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="25" y="160" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wGBVTd1KflDnRyXtLt23-41" value="&#39;scored-queue&#39;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="353" y="260" width="84" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
