@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T13:43:13.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="WclMDVIU42ofstkMMvEB" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T15:09:42.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="43fd9XayOy-YjXsYchU2" version="14.7.9" type="github">
   <diagram id="09GKH1kV66fbMY8MI7Eg" name="Page-1">
-    <mxGraphModel dx="1366" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1064" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,35 @@
         </mxCell>
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-18" value="Segment" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=30;" vertex="1" parent="1">
           <mxGeometry x="890" y="40" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-25" value="Fraud Analyst" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="650" width="20" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-31" value="Resolve Case" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-25" target="yXSnxKHzFVAqFFCZuz3Z-26">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="230" as="sourcePoint" />
+            <mxPoint x="90" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-26" value="Trust UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="650" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="yXSnxKHzFVAqFFCZuz3Z-26">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-30" value="Case Details" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="yXSnxKHzFVAqFFCZuz3Z-28" parent="yXSnxKHzFVAqFFCZuz3Z-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-27" value="Trust API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="650" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-29" value="Request Case" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="yXSnxKHzFVAqFFCZuz3Z-28" parent="1" source="yXSnxKHzFVAqFFCZuz3Z-25">
+          <mxGeometry x="0.1453" y="10" relative="1" as="geometry">
+            <mxPoint x="165" y="750" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
