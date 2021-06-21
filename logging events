@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T13:33:28.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="sNR3yGEVafD9dtUd3Xu0" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T13:35:51.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="adpw56ZlzDDZ4VgHSyVJ" version="14.7.9" type="github">
   <diagram id="09GKH1kV66fbMY8MI7Eg" name="Page-1">
     <mxGraphModel dx="1366" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,8 +43,26 @@
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-11" value="Developer" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="240" width="20" height="320" as="geometry" />
         </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-16" value="Request logs" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-11" target="yXSnxKHzFVAqFFCZuz3Z-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="190" as="sourcePoint" />
+            <mxPoint x="90" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-17" value="Publish log data to Trust API" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-11" target="yXSnxKHzFVAqFFCZuz3Z-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="260" as="sourcePoint" />
+            <mxPoint x="90" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-13" value="Trust-API&lt;br&gt;(Prod)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=30;" vertex="1" parent="1">
           <mxGeometry x="720" y="40" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-19" value="publish to Segment" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-13" target="yXSnxKHzFVAqFFCZuz3Z-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="490" as="sourcePoint" />
+            <mxPoint x="130" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-15" value="Trustar logs" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="yXSnxKHzFVAqFFCZuz3Z-9" target="yXSnxKHzFVAqFFCZuz3Z-11">
           <mxGeometry relative="1" as="geometry">
@@ -54,6 +72,9 @@
               <mxPoint x="540" y="460" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-18" value="Segment" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=30;" vertex="1" parent="1">
+          <mxGeometry x="890" y="40" width="100" height="530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
