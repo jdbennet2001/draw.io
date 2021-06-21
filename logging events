@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T15:29:44.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="N0qAn00NZk6gO_a37Q3s" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T15:31:34.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="yg01wtHhwyXDLhEWQDd-" version="14.7.9" type="github">
   <diagram id="09GKH1kV66fbMY8MI7Eg" name="Page-1">
-    <mxGraphModel dx="1064" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1189" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,10 +127,13 @@
           <mxGeometry x="530" y="650" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-34" value="Job Queue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="650" width="170" height="500" as="geometry" />
+          <mxGeometry x="690" y="650" width="110" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-48" value="&lt;i&gt;Rate limited API&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#32729A;" vertex="1" parent="yXSnxKHzFVAqFFCZuz3Z-34">
-          <mxGeometry x="90" y="370" width="90" height="20" as="geometry" />
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-49" value="&lt;font color=&quot;#000000&quot;&gt;Resolution Event&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;fontColor=#32729A;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-34" target="yXSnxKHzFVAqFFCZuz3Z-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="360" as="sourcePoint" />
+            <mxPoint x="140" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-37" value="Analytics Agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="830" y="650" width="100" height="500" as="geometry" />
@@ -160,11 +163,8 @@
             <mxPoint x="800" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-44" value="Resolution Event" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="yXSnxKHzFVAqFFCZuz3Z-37">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="780" y="1020" as="sourcePoint" />
-            <mxPoint x="870" y="1030" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-48" value="&lt;i&gt;Rate limited API&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#32729A;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1020" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
