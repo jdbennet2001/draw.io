@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T15:09:42.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="43fd9XayOy-YjXsYchU2" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T15:20:54.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="b9IlYmeldx-safepshdQ" version="14.7.9" type="github">
   <diagram id="09GKH1kV66fbMY8MI7Eg" name="Page-1">
     <mxGraphModel dx="1064" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -96,14 +96,44 @@
             <mxPoint x="-130" y="176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-32" value="Set resolution" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-26" target="yXSnxKHzFVAqFFCZuz3Z-27">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="270" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-27" value="Trust API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="650" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-35" value="Update CASE record" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-27">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="300" as="sourcePoint" />
+            <mxPoint x="220" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-36" value="Publish Resolution" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="yXSnxKHzFVAqFFCZuz3Z-27" target="yXSnxKHzFVAqFFCZuz3Z-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="340" as="sourcePoint" />
+            <mxPoint x="130" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yXSnxKHzFVAqFFCZuz3Z-29" value="Request Case" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="yXSnxKHzFVAqFFCZuz3Z-28" parent="1" source="yXSnxKHzFVAqFFCZuz3Z-25">
           <mxGeometry x="0.1453" y="10" relative="1" as="geometry">
             <mxPoint x="165" y="750" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-33" value="Postgres" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="650" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-34" value="Job Queue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="650" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-37" value="Analytics Agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="650" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yXSnxKHzFVAqFFCZuz3Z-38" value="Segment" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="650" width="100" height="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
