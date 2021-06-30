@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T17:14:55.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.1" etag="QlasJlHaFw6hTtNVj01R" type="github"><diagram id="tPGCT9_2JpeQbKh5KaIE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-30T17:31:01.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="d8Rf-w5qPJt0rMldwodK" version="14.8.1" type="github">
+  <diagram id="tPGCT9_2JpeQbKh5KaIE" name="Page-1">
+    <mxGraphModel dx="785" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uRNH6xJ-pgq37NYaQTYr-1" target="uRNH6xJ-pgq37NYaQTYr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-13" value="Open Incident" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uRNH6xJ-pgq37NYaQTYr-12">
+          <mxGeometry x="-0.184" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-1" value="Agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uRNH6xJ-pgq37NYaQTYr-2" target="uRNH6xJ-pgq37NYaQTYr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-9" value="Resolve case fraud/ not fraud" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uRNH6xJ-pgq37NYaQTYr-8">
+          <mxGeometry x="-0.0516" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-2" value="Fraud Analyst" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uRNH6xJ-pgq37NYaQTYr-3" target="uRNH6xJ-pgq37NYaQTYr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-11" value="Review Case" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uRNH6xJ-pgq37NYaQTYr-10">
+          <mxGeometry x="0.02" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-3" value="Case Management System&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uRNH6xJ-pgq37NYaQTYr-14" target="uRNH6xJ-pgq37NYaQTYr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-16" value="Request account&lt;br&gt;review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uRNH6xJ-pgq37NYaQTYr-15">
+          <mxGeometry y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-14" value="ServiceNow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.883;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uRNH6xJ-pgq37NYaQTYr-17" target="uRNH6xJ-pgq37NYaQTYr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-19" value="Request account&lt;br&gt;review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uRNH6xJ-pgq37NYaQTYr-18">
+          <mxGeometry x="0.0043" y="-1" relative="1" as="geometry">
+            <mxPoint x="36" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uRNH6xJ-pgq37NYaQTYr-17" value="Potential account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
